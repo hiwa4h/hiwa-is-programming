@@ -1,0 +1,49 @@
+run = True
+IP = input("  ")
+
+    
+    
+    
+    
+
+n = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9 ]
+if IP == "export random":
+        for item in range(1,10):
+            print(n)
+else:
+    print("Invalid syntax")
+
+if IP !=  "help" or "Help":
+    print("__random__.  ")  
+else:
+    print("Invalid syntax")
+
+
+    
+while run:
+    close = input("would you close the program? ")
+    if close == "yes":
+        break
+    else:
+        o = input("are u sure u want to continue? :")
+        if o == "yes":
+            IP = input(" ")
+                
+
+            n = [0, 1, 2, 3, 4, 5, 6, 7, 8 , 9 ]
+            if IP == "export random":
+                    for item in range(1,10):
+                        print(n)
+            else:
+                print("Invalid syntax")
+
+            if IP !=  "help" or "Help":
+                print("__random__.  ")  
+            else:
+                print("Invalid syntax")
+
+
+     
+        else:
+            break
+            run = False
